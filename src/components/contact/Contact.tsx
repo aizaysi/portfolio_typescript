@@ -20,33 +20,33 @@ export type Contact = {
 export const contacts: Contact[] = [
   {
     name: "EMAIL:",
-    info: "tijan@tijan.dev",
+    info: "aizaysi.success@gmail.com",
     icon: <MdOutlineEmail className="contact-icon" />,
-    url: "mailto:tijan@tijan.dev",
+    url: "mailto:aizaysi.success@gmail.com",
   },
   {
     name: "TWITTER:",
-    info: "@0xTijan",
+    info: "@aizaysi",
     icon: <AiFillTwitterCircle className="contact-icon" />,
-    url: "https://twitter.com/0xTijan",
+    url: "https://twitter.com/aizaysi",
   },
   {
     name: "TELEGRAM:",
-    info: "@TijanWeb3",
+    info: "@AizaysiWeb3",
     icon: <BsTelegram className="contact-icon" />,
-    url: "https://t.me/TijanWeb3",
+    url: "https://t.me/aizaysiWeb3",
   },
   {
     name: "DISCORD:",
-    info: "Tijan#6804",
+    info: "Aizaysi#6804",
     icon: <FaDiscord className="contact-icon" />,
-    url: "https://discord.com/users/775249998379614238",
+    url: "https://discord.com/aizaysi",
   },
   {
     name: "GitHub:",
-    info: "@0xTijan",
+    info: "@aizaysi",
     icon: <AiFillGithub className="contact-icon" />,
-    url: "https://github.com/0xTijan",
+    url: "https://github.com/aizaysi",
   },
   {
     name: "LOCATION & ZONE:",
@@ -84,7 +84,7 @@ const Contact = () => {
       </div>
 
       <div className="button-container">
-        <a href="mailto:tijan@tijan.dev">
+        <a href="mailto:aizaysi.success@gmail.com">
           <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid' className="contact-btn">
             {text[language].contactButton}
           </Button>

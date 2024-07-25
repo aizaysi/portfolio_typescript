@@ -85,7 +85,7 @@ const Projects = () => {
       </button>
       <div>
         <p className="git-hub-text">{text[language].projectsGithubText}</p>
-        <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
+        <a href="https://github.com/aizaysi" target="_blank" rel="noreferrer">
           <button className="git-hub-btn">GitHub</button>
         </a>
       </div>
